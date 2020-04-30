@@ -4,6 +4,6 @@
 # shellcheck disable=SC2086
 dir=`dirname "$(realpath $0)"`
 name=unamurcsfaculty/pwsh-msteams
-version=1.0.22
+version=latest
 
 docker image build -t ${name}:${version} ${dir}
